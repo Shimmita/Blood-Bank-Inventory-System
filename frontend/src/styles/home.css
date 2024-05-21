@@ -1,0 +1,77 @@
+    .parent-container{
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+        /* background: linear-gradient(#303134, #a2a7d8) no-repeat; */
+
+        /* background: linear-gradient(#e66465, #9198e5) no-repeat; */
+        /* background: linear-gradient(#e66465, grey) no-repeat; */
+        /* background: linear-gradient(#fa7cbb, #f14658) no-repeat; */
+        /* background: linear-gradient(#402662 , #3900a6) no-repeat; */
+        /* background: linear-gradient(#ff0076 ,#590fb7) no-repeat; */
+    
+    }
+
+
+
+    .brand{
+    flex: 2 ;
+    }
+
+
+    .nav-item:hover{
+    opacity: .3;
+    }
+
+
+    .nav-item{
+
+    }
+
+
+    .container-home{
+    display: flex;
+    padding: 1rem;
+    margin-top: 2rem;
+    }
+
+    .sidebar-contaner{
+        flex: 1;
+        max-width: 400px;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .sidebar-list-container{
+    margin-top: 2rem;
+    }
+
+    .sidebar-image-container{
+        border-radius: .5rem;
+        margin-bottom: 2rem;
+        width: 340px;
+        margin-right: 2rem;
+    }
+
+    .sidebar-list-item{
+        padding: 1rem;
+        box-shadow: 0 0 1px white;
+        margin-top: .8rem;
+        margin-right: 2rem;
+        color: white;
+    }
+
+
+    .sidebar-list-item:hover{
+        cursor: pointer;
+    }
+
+    .icon-list{
+        margin-right: 1rem;
+        color: white;
+    }
+
+    .container-content{
+    flex: 2;
+    flex-wrap: wrap;
+    }
